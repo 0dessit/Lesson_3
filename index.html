@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
@@ -38,27 +38,35 @@
         <fieldset>
             <legend>Данные про ваш курс</legend>
             <p>
-                <label>Выберите ваш курс:</label>
-                <select>
-                    <option value="1" selected disabled>Выберите из списка</option>
-                    <option value="1">Front-end</option>
-                    <option value="2">Project-Management</option>
-                    <option value="3">QA-Manual</option>
-                </select>
+                <label>Выберите ваш курс:
+                    <select>
+                        <option value="1" selected disabled>Выберите из списка</option>
+                        <option value="1">Front-end</option>
+                        <option value="2">Project-Management</option>
+                        <option value="3">QA-Manual</option>
+                    </select>
+                </label>
             </p>
             <p>
-                <label>Выполняете ли вы домашнее задание:</label><br>
-                <input type="radio" value="one" name="someradio">
-                <span>Да, выполняю</span><br>
-                <input type="radio" value="two" name="someradio">
-                <span>Нет, не выполняю</span>
+                <label>Выполняете ли вы домашнее задание:<br>
+                    <input type="radio" value="one" name="someradio">
+                    <span>Да, выполняю</span><br>
+                </label>
+                <label>
+                    <input type="radio" value="two" name="someradio">
+                    <span>Нет, не выполняю</span>
+                </label>
+
             </p>
             <p>
-                <label>Дополнительная информация:</label><br>
-                <input type="checkbox" value="one">
-                <span>Буду продолжать обучение</span><br>
-                <input type="checkbox" value="two">
-                <span>Дополнительно занимаюсь английским</span>
+                <label>Дополнительная информация:<br>
+                    <input type="checkbox" value="one">
+                    <span>Буду продолжать обучение</span><br>
+                </label>
+                <label>
+                    <input type="checkbox" value="two">
+                    <span>Дополнительно занимаюсь английским</span>
+                </label>
             </p>
         </fieldset>
         <button>Отправить</button>
